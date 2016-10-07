@@ -12,6 +12,7 @@
 		10BD41461DA8130D006AD763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BD41451DA8130D006AD763 /* Assets.xcassets */; };
 		10BD41491DA8130D006AD763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BD41471DA8130D006AD763 /* Main.storyboard */; };
 		10BD41521DA81328006AD763 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD41511DA81328006AD763 /* EventMonitor.swift */; };
+		10C801231DA82D040050B05B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 10C801221DA82D040050B05B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		10BD41481DA8130D006AD763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10BD414A1DA8130D006AD763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BD41511DA81328006AD763 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		10C801221DA82D040050B05B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		10BD41351DA8130D006AD763 = {
 			isa = PBXGroup;
 			children = (
+				10C801221DA82D040050B05B /* .gitignore */,
 				10BD41401DA8130D006AD763 /* MPass */,
 				10BD413F1DA8130D006AD763 /* Products */,
 			);
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BD41461DA8130D006AD763 /* Assets.xcassets in Resources */,
+				10C801231DA82D040050B05B /* .gitignore in Resources */,
 				10BD41491DA8130D006AD763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
