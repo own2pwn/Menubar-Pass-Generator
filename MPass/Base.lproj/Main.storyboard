@@ -753,15 +753,15 @@
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nOh-Nf-Nes">
-                                        <rect key="frame" x="0.0" y="18" width="272" height="17"/>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Hp-QX-akY">
+                                        <rect key="frame" x="0.0" y="0.0" width="274" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="inline" title="Generate" bezelStyle="inline" imagePosition="left" alignment="center" borderStyle="border" inset="2" id="vVL-4M-eqy">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="copy-icon" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="G8d-ba-1wc">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystemBold"/>
+                                            <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="generateBtn:" target="XfG-lQ-9wD" id="sBp-pH-x00"/>
+                                            <action selector="generateBtn:" target="XfG-lQ-9wD" id="kk4-n5-sE9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -769,7 +769,6 @@
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="genBtn" destination="nOh-Nf-Nes" id="svz-5e-ral"/>
                         <outlet property="lastTF" destination="LRl-iv-mLx" id="jBA-Gn-0ZC"/>
                         <outlet property="lenTF" destination="qvC-Tj-yJs" id="pcX-KP-DA7"/>
                         <outlet property="maskTF" destination="Txt-qu-GXQ" id="Khd-5r-bBP"/>
@@ -781,4 +780,7 @@
             <point key="canvasLocation" x="4" y="152"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="copy-icon" width="128" height="128"/>
+    </resources>
 </document>
