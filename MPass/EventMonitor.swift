@@ -3,7 +3,7 @@
 //  MPass
 //
 //  Created by Евгений on 07.10.16.
-//  Copyright © 2016 Evgeniy. All rights reserved.
+//  Copyright © 2018 Evgeniy. All rights reserved.
 //
 
 import Cocoa
